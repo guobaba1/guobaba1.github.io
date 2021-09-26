@@ -292,7 +292,7 @@
   
   
 <a href="/2021/09/26/FastApi-Documents/" class="archive-article-date">
-        <time datetime="2021-09-26T02:27:03.197Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-26</time>
+        <time datetime="2021-09-26T02:31:31.902Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-26</time>
 </a>
 
   
@@ -310,24 +310,8 @@
 <li>方法1：</li>
 </ul>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ main:app --host=0.0.0.0 --port=5555 --reload --log-level=debug # 直接在命令行运行</span><br><span class="line"></span><br><span class="line">&lt;!-- more--&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<blockquote>
-<ul>
-<li>方法2：</li>
-</ul>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if __name__ == &#x27;__main__&#x27;: # 使用__name__ == &#x27;__main__&#x27; 方法</span><br><span class="line">    uvicorn.run(app=&quot;main:app&quot;,host=&quot;0.0.0.0&quot;, port=5555,reload=True,debug=True)</span><br></pre></td></tr></table></figure>
-<blockquote>
-<ul>
-<li>方法3：<br><code># 在pycharm中进行配置</code><br><img src="http://qz3yihiyo.hd-bkt.clouddn.com/fastapi_cmd_result.png" alt="图片"></li>
-<li>参考文档：</li>
-</ul>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">https://www.coder.work/article/7534868</span><br><span class="line">https://cloud.tencent.com/developer/article/1649051</span><br></pre></td></tr></table></figure>
-
-
-
-
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ main:app --host=0.0.0.0 --port=5555 --reload --log-level=debug # 直接在命令行运行</span><br></pre></td></tr></table></figure>
+    
     
 
     

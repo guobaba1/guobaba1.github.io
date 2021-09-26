@@ -9,7 +9,9 @@
 <li>方法1：</li>
 </ul>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ main:app --host=0.0.0.0 --port=5555 --reload --log-level=debug # 直接在命令行运行</span><br><span class="line"></span><br><span class="line">&lt;!-- more--&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ main:app --host=0.0.0.0 --port=5555 --reload --log-level=debug # 直接在命令行运行</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
 <blockquote>
 <ul>
 <li>方法2：</li>
