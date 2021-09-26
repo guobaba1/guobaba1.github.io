@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>FastApi-Documents</title>
+    <url>/2021/09/26/FastApi-Documents/</url>
+    <content><![CDATA[<hr>
+<h2 id="1-FastApi的启动："><a href="#1-FastApi的启动：" class="headerlink" title="1.FastApi的启动："></a><strong>1.FastApi的启动：</strong></h2><blockquote>
+<ul>
+<li>方法1：</li>
+</ul>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ main:app --host=0.0.0.0 --port=5555 --reload --log-level=debug # 直接在命令行运行</span><br><span class="line"></span><br><span class="line">&lt;!-- more--&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>方法2：</li>
+</ul>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if __name__ == &#x27;__main__&#x27;: # 使用__name__ == &#x27;__main__&#x27; 方法</span><br><span class="line">    uvicorn.run(app=&quot;main:app&quot;,host=&quot;0.0.0.0&quot;, port=5555,reload=True,debug=True)</span><br></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>方法3：<br><code># 在pycharm中进行配置</code><br><img src="http://qz3yihiyo.hd-bkt.clouddn.com/fastapi_cmd_result.png" alt="图片"></li>
+<li>参考文档：</li>
+</ul>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://www.coder.work/article/7534868</span><br><span class="line">https://cloud.tencent.com/developer/article/1649051</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>欢迎使用 Cmd Markdown 编辑阅读器</title>
     <url>/2021/09/09/Wellcome-Cmd-Markdown/</url>
     <content><![CDATA[<hr>
